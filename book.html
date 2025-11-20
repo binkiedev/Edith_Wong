@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book an Appointment | 100SMILES Dental Care</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="Request an appointment at 100SMILES Dental Care in Razole. Choose your preferred date and time and our team will confirm shortly." />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-row">
+      <a class="logo" href="index.html">
+        <span class="logo-line1">100SMILES</span>
+        <span class="logo-line2">Dental Care</span>
+      </a>
+      <nav class="nav">
+        <a href="services.html">Services</a>
+        <a href="staff.html">Team</a>
+        <a href="articles.html">Articles</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-phone" href="tel:+61750005599" aria-label="Call 07 5000 5599">Phone</a>
+        <a class="btn btn-book active" href="book.html">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Book an Appointment</h1>
+    <p class="muted">Complete this request and our team will confirm your appointment by email or phone.</p>
+
+    <form class="form card" action="#" method="post">
+      <label>Full name
+        <input type="text" name="name" autocomplete="name" required />
+      </label>
+      <label>Email
+        <input type="email" name="email" autocomplete="email" required />
+      </label>
+      <label>Phone
+        <input type="tel" name="phone" autocomplete="tel" required />
+      </label>
+
+      <div class="grid-2" style="padding:0">
+        <label>Preferred date
+          <input type="date" name="date" required />
+        </label>
+        <label>Preferred time
+          <input type="time" name="time" />
+        </label>
+      </div>
+
+      <label>Reason for visit
+        <select name="reason" required>
+          <option value="">Please select…</option>
+          <option>Check-up & Cleaning</option>
+          <option>Tooth Pain / Emergency</option>
+          <option>Orthodontics</option>
+          <option>Implants / Surgery</option>
+          <option>Cosmetic Dentistry</option>
+          <option>Other</option>
+        </select>
+      </label>
+
+      <label>Additional details
+        <textarea name="message" rows="5" placeholder="Anything else we should know?"></textarea>
+      </label>
+
+      <button class="btn btn-book" type="submit">Request Booking</button>
+      <a class="btn btn-outline" href="contact.html#booking">Use contact form instead</a>
+    </form>
+
+    <p class="muted" style="margin-top:12px">
+      By submitting this form you agree to be contacted about your appointment request.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <small>&copy; 2025 100SMILES Dental Care</small>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="staff.html">Team</a>
+        <a href="contact.html">Contact</a>
+        <a href="articles.html">Articles</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
